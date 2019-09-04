@@ -1,0 +1,148 @@
+.container {
+  margin-bottom: 5px;
+}
+
+.container-header, .container-heap {
+  width: 835px;
+  margin-left: 200px;
+  padding: 10px;
+}
+
+.container-header span {
+  margin-left: 10px;
+}
+
+.container-search {
+  margin: 0 50px;
+}
+
+.container-search, .teaser, .home-tabs ul, .container-heap, .map ul, .header-news-tabs {
+  display: flex;
+  flex-direction: row;
+}
+
+.teaser ul {
+  font-size: 15px;
+}
+
+.visited, .map ul, .tv-program ul, .ether ul {
+  font-size: 13px;
+}
+
+.home-tabs, .home-promo {
+  margin: 5px auto;
+}
+
+.home-tabs ul, .services ul, .map ul, .tv-program ul, .ether ul, .header-news-tabs {
+  list-style-type: none;
+  text-align: left;
+}
+
+.home-promo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.home-promo-ad {
+  margin-top: 5px;
+}
+
+.searchBlock {
+  width: 90%;
+  display: flex;
+}
+
+.searchBtn {
+  width: 10%;
+  padding: 8px 10px;
+  border: 1px solid #fed767;
+  background-color: #fed767;
+  cursor: pointer;
+  position: relative;
+}
+.searchBtn::after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  right: -21px;
+  border-top: 21px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 21px solid transparent;
+  border-left: 10px solid #fed767;
+}
+
+.search-logo {
+  margin-right: 15px;
+}
+
+.searchField {
+  width: 85%;
+  padding-left: 5px;
+  height: 36px;
+  border: 2px solid #fed767;
+}
+
+.container-search-main {
+  padding: 2px;
+}
+
+.teaser-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.weather-content {
+  display: flex;
+}
+
+.heap {
+  width: 277px;
+}
+
+.weather-logo {
+  margin: 0;
+}
+
+.weather-temp, .weather-time {
+  margin-left: 1rem;
+  line-height: 45px;
+}
+
+.weather-temp {
+  text-align: center;
+  font-size: 30px;
+}
+
+.services,.tv-program {
+  margin-top: 20px;
+}
+
+img {
+  margin: 2px auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.home-promo-banner {
+  
+}
+
+h1 {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+li {
+  padding: 2px;
+}
+
+a {
+  color: #417bc0;
+  margin-right: 12px;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
